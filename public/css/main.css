@@ -15,30 +15,6 @@ body {
 	color: #000;
 }
 
-a {
-	text-decoration: none;
-	color: #000;
-	font-weight: bold;
-}
-
-button {
-	background-color: transparent;
-	border: none;
-	box-shadow: none;
-	outline: none;
-}
-
-.container {
-	width: 100%;
-	margin: 0 auto;
-}
-
-@media screen and (min-width: 728px) {
-	.container {
-		width: 728px;
-	}
-}
-
 .pagetop {
 	backface-visibility: hidden;
 	background-color: white;
@@ -117,6 +93,30 @@ button {
 	width: 72px;
 }
 
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 728px) {
+	.container {
+		width: 728px;
+	}
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
 .feed {
 	width: 100%;
 	display: flex;
@@ -181,7 +181,7 @@ button {
 	max-height: 600px;
 }
 
-.publication__controls {
+.publication__actions {
 	width: 100%;
 	display: flex;
 	justify-content: flex-start;
@@ -189,33 +189,33 @@ button {
 	padding: 4px 0;
 }
 
-.publication__control {
+.publication__action {
 	font-size: 2.4rem;
 	margin: 0 8px;
 }
 
-.publication__control:last-of-type {
+.publication__action:last-of-type {
 	justify-self: flex-end;
 	margin-left: auto;
 }
 
-.publication__status {
+.publication__like {
 	display: flex;
 	padding: 8px;
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
-.publication__status .user {
+.publication__like .user {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
 
-.publication__status .user span {
+.publication__like .user span {
 	font-size: 1.2rem;
 }
 
-.publication__status .user__thumb {
+.publication__like .user__thumb {
 	height: 30px;
 	width: 30px;
 	margin-right: 8px;
