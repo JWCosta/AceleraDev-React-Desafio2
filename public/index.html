@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="AceleraDev Desafio 2" />
+    <!--Título da página-->
+    <title>Instagram</title>
+    <!--Icone na aba do navegador-->
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <!--Importação de estilo de fontes-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+    <!--Importação de arquivos de estilização da página-->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/fontawesome.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+    <!--Inicio da página-->
+		<header class="pagetop">
+      <!--Div contendo o logo do Instagram e icone direct-->
+      <div class="container">
+        <a href="#" class="pagetop__logo">
+          <img src="img/instagram-logo.svg" alt="Instagram logo">
+        </a>
+        <!--Icone Direct Instagram-->
+        <button class="pagetop__icon">
+          <i class="far fa-paper-plane"></i>
+        </button>
+      </div>
+		</header>
+    <!--Div contendo os Stories-->
+    <div class="container">
+
+      <section class="stories">
+
+        <div class="stories__container">
+          <a href="#" class="user__thumb">
+          <span class="user__thumb__wrapper">
+            <img src="img/profiles/iron-man/robert-downey-jr.jpg" alt="Stories Robert Downey Jr">
+          </span>
+          </a>
+          <!--Storie não visualizado-->
+          <a href="#" class="user__thumb user__thumb--hasNew">
+          <span class="user__thumb__wrapper">
+            <img src="img/profiles/gamora/zoe-saldana.jpg" alt="Stories Zoë Saldaña">
+          </span>
+          </a>
+          <!--Storie não visualizado-->
+          <a href="#" class="user__thumb user__thumb--hasNew">
+          <span class="user__thumb__wrapper">
+            <img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Stories Chadwick Boseman">
+          </span>
+          </a>
+          <!--Storie não visualizado-->
+          <a href="#" class="user__thumb user__thumb--hasNew">
+          <span class="user__thumb__wrapper">
+            <img src="img/profiles/domino/domino-profile.jpg" alt="Stories Zazie Beetz">
+          </span>
+          </a>
+          <!--Storie não visualizado-->
+          <a href="#" class="user__thumb user__thumb--hasNew">
+          <span class="user__thumb__wrapper">
+            <img src="img/profiles/carol/carol-profile.jpg" alt=" Stories Brie Larson">
+          </span>
+          </a>
+          
+        </div>
+      </section>
+
+    </div>
+
+    <!--Inicio da publicações-->
+    <div class="container">
+      <!--Section Feed contendo o conteúdo das publicações e suas respectivas informações-->
+      <section class="feed">
+
+        <!--Conteúdo da publicação-->
+        <section class="publication">
+          <header class="publication__header">
+            <!--Nome e imagem do usuário e link para seu perfil-->
+            <div class="user">
+              <a href="https://instagram.com/robertdowneyjr/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/iron-man/robert-downey-jr.jpg" alt="Robert Downey Jr">
+              </a>
+              <a href="https://instagram.com/robertdowneyjr/?hl=pt-br" class="user__name">Robert Downey Jr.</a>
+            </div>
+            <button class="publication__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+          <!--Imagem Publicada-->
+          <figure class="publication__figure">
+            <img src="img/profiles/iron-man/homem-de-ferro.jpg" alt="Homem de Ferro">
+          </figure>
+          <!--Rodapé da publicação contendo icones referentes a curtir a imagem, comentar e salvar a publicação-->
+          <nav class="publication__controls">
+            <button class="publication__control">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <!--Imagem,nome do ultimo usuário que curtiu a publicação e quantidade de curtidas -->  
+          <div class="publication__status">
+            <div class="user">
+              <a href="https://instagram.com/zaziebeetz/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/domino/domino-profile.jpg" alt="Zazie Beetz">
+              </a>
+              <span>
+              curtido por <a href="https://instagram.com/zaziebeetz/?hl=pt-br">Zazie Beetz</a> 
+              e outras <a href="#">785 pessoas</a>
+            </span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!--Conteúdo da publicação-->
+        <section class="publication">
+          <header class="publication__header">
+            <!--Nome e imagem do usuário e link para seu perfil-->
+            <div class="user">
+              <a href="https://instagram.com/zoesaldana/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/gamora/zoe-saldana.jpg" alt="Zoë Saldaña">
+              </a>
+              <a href="https://instagram.com/zoesaldana/?hl=pt-br" class="user__name">Zoë Saldaña</a>
+            </div>
+            <button class="publication__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+          <!--Imagem Publicada-->
+          <figure class="publication__figure">
+            <img src="img/profiles/gamora/zoe-gamora.jpg" alt="Gamora">
+          </figure>
+          <!--Rodapé da publicação contendo icones referentes a curtir a imagem, comentar e salvar a publicação-->
+          <nav class="publication__controls">
+            <button class="publication__control">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <!--Imagem,nome do ultimo usuário que curtiu a publicação e quantidade de curtidas --> 
+          <div class="publication__status">
+            <div class="user">
+              <a href="https://instagram.com/brielarson/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/carol/carol-profile.jpg" alt="Brie Larson">
+              </a>
+              <span>
+              curtido por <a href="https://instagram.com/brielarson/?hl=pt-br">Brie Larson</a> 
+              e outras <a href="#">820 pessoas</a>
+            </span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!--Conteúdo da publicação-->
+        <section class="publication">
+          <header class="publication__header">
+            <!--Nome e imagem do usuário e link para seu perfil-->
+            <div class="user">
+              <a href="https://instagram.com/chadwickboseman/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Chadwick Boseman">
+              </a>
+              <a href="https://instagram.com/chadwickboseman/?hl=pt-br" class="user__name">Chadwick boseman</a>
+            </div>
+            <button class="publication__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+          <!--Imagem Publicada-->
+          <figure class="publication__figure">
+            <img src="img/profiles/black-panther/black-panther-6.png" alt="Pantera Negra">
+          </figure>
+          <!--Rodapé da publicação contendo icones referentes a curtir a imagem, comentar e salvar a publicação-->
+          <nav class="publication__controls">
+            <button class="publication__control">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <!--Imagem,nome do ultimo usuário que curtiu a publicação e quantidade de curtidas --> 
+          <div class="publication__status">
+            <div class="user">
+              <a href="https://instagram.com/christianbale_/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/bruce/bruce-profile.jpg" alt="Christian Bale">
+              </a>
+              <span>
+              curtido por <a href="https://instagram.com/christianbale_/?hl=pt-br">Christian Bale</a> 
+              e outras <a href="#">560 pessoas</a>
+            </span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!--Conteúdo da publicação-->
+        <section class="publication">
+          <header class="publication__header">
+            <!--Nome e imagem do usuário e link para seu perfil-->
+            <div class="user">
+              <a href="https://instagram.com/brielarson/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/carol/carol-profile.jpg" alt="Brie Larson">
+              </a>
+              <a href="https://instagram.com/brielarson/?hl=pt-br" class="user__name">Brie Larson</a>
+            </div>
+            <button class="publication__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+          <!--Imagem Publicada-->
+          <figure class="publication__figure">
+            <img src="img/profiles/carol/brie-capita-marvel.jpg" alt="Capitã Marvel">
+          </figure>
+          <!--Rodapé da publicação contendo icones referentes a curtir a imagem, comentar e salvar a publicação-->
+          <nav class="publication__controls">
+            <button class="publication__control">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <!--Imagem,nome do ultimo usuário que curtiu a publicação e quantidade de curtidas --> 
+          <div class="publication__status">
+            <div class="user">
+              <a href="https://instagram.com/robertdowneyjr/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/iron-man/robert-downey-jr.jpg" alt="Robert Downey Jr">
+              </a>
+              <span>
+              curtido por <a href="https://instagram.com/robertdowneyjr/?hl=pt-br">Robert Downey Jr.</a> 
+              e outras <a href="#">750 pessoas</a>
+            </span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!--Conteúdo da publicação-->
+        <section class="publication">
+          <header class="publication__header">
+            <!--Nome e imagem do usuário e link para seu perfil-->
+            <div class="user">
+              <a href="https://instagram.com/zaziebeetz/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/domino/domino-profile.jpg" alt="Zazie Beetz">
+              </a>
+              <a href="https://instagram.com/zaziebeetz/?hl=pt-br" class="user__name">Zazie Beetz</a>
+            </div>
+            <button class="publication__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+          <!--Imagem Publicada-->
+          <figure class="publication__figure">
+            <img src="img/profiles/domino/zazie-domino.png" alt="Domino">
+          </figure>
+          <!--Rodapé da publicação contendo icones referentes a curtir a imagem, comentar e salvar a publicação-->
+          <nav class="publication__controls">
+            <button class="publication__control">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <!--Imagem,nome do ultimo usuário que curtiu a publicação e quantidade de curtidas --> 
+          <div class="publication__status">
+            <div class="user">
+              <a href="https://instagram.com/chadwickboseman/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/black-panther/black-panther-profile.jpg" alt="Chadwick Boseman">
+              </a>
+              <span>
+              curtido por <a href="https://instagram.com/chadwickboseman/?hl=pt-br">Chadwick boseman</a> 
+              e outras <a href="#">600 pessoas</a>
+            </span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!--Conteúdo da publicação-->
+        <section class="publication">
+          <header class="publication__header">
+            <!--Nome e imagem do usuário e link para seu perfil-->
+            <div class="user">
+              <a href="https://instagram.com/christianbale_/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/bruce/bruce-profile.jpg" alt="Christian Bale">
+              </a>
+              <a href="https://instagram.com/christianbale_/?hl=pt-br" class="user__name">Christian Bale</a>
+            </div>
+            <button class="publication__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+          <!--Imagem Publicada-->
+          <figure class="publication__figure">
+            <img src="img/profiles/bruce/christian-bale-batman-.jpg" alt="Bruce Wayne">
+          </figure>
+          <!--Rodapé da publicação contendo icones referentes a curtir a imagem, comentar e salvar a publicação-->
+          <nav class="publication__controls">
+            <button class="publication__control">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="publication__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <!--Imagem,nome do ultimo usuário que curtiu a publicação e quantidade de curtidas --> 
+          <div class="publication__status">
+            <div class="user">
+              <a href="https://instagram.com/zoesaldana/?hl=pt-br" class="user__thumb">
+                <img src="img/profiles/gamora/zoe-saldana.jpg" alt="Zoë Saldaña">
+              </a>
+              <span>
+              curtido por <a href="https://instagram.com/zoesaldana/?hl=pt-br">Zoë Saldaña</a> 
+              e outras <a href="#">450 pessoas</a>
+            </span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </section>
+
+    </div>
+
+  </body>
+  
+</html>
